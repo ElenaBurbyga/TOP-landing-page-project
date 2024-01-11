@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 300px;
+  height: 350px;
   background-color: #E5E7EB;
   margin-top: 50px;
   padding-left: 12%;
@@ -20,8 +20,8 @@
 
 .quote-owner {
   position: absolute;
-  right: 100px;
-  bottom: 10px;
+  right: 150px;
+  bottom: 50px;
   font-size: 23px;
   font-weight: 700;
 }
