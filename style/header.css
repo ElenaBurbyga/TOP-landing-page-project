@@ -1,0 +1,78 @@
+* {
+  font-family: Roboto, Arial;
+  text-decoration: none;
+}
+.site-info-section, .site-info-section * {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1F2937;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 350px;
+  z-index: 1;
+  padding-left: 9%;
+  padding-right: 6%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.site-info-section {
+  display: flex;
+  margin-top: 50px;
+}
+
+.header-logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links-section {
+  display: flex;
+  gap: 15px;
+}
+.secondary-text{
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.header-main-text {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.header-img {
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sign-up-button {
+  padding: 4px 20px;
+  margin-top: 7px;
+  border: none;
+  border-radius: 6px;
+  color: #E5E7EB;
+  background-color: #3882F6;
+}
+
+.sign-up-button:hover{
+  cursor: pointer;
+  background-color: #0061fd;
+}
+
+.sign-up-button:active {
+  opacity: 0.3;
+}
