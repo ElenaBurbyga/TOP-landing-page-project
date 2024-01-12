@@ -1,0 +1,27 @@
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 350px;
+  background-color: #E5E7EB;
+  margin-top: 50px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-owner {
+  position: absolute;
+  right: 150px;
+  bottom: 50px;
+  font-size: 23px;
+  font-weight: 700;
+}
